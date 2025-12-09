@@ -11,7 +11,10 @@
 //   like "cannot assign 'const char*' to 'int'".
 //
 // TASK 2: Fix the error.
-//   In C++, 'x' is an 'int' box. It can *only* hold integers.
+//   In C++, 'x' is an 'int' box. It  *  Executing task: c:\Users\Admin\OneDrive\PPKE_first_semester\lecture-materials-Abd-Alfatah\Lecture2\g++ -Wall -Wextra -g3 c:\Users\Admin\OneDrive\PPKE_first_semester\lecture-materials-Abd-Alfatah\Lecture2\exercise1_typing.cpp -o c:\Users\Admin\OneDrive\PPKE_first_semester\lecture-materials-Abd-Alfatah\Lecture2\output\exercise1_typing.exe 
+
+
+ // The terminal process failed to launch: Path to shell executable "c:\Users\Admin\OneDrive\PPKE_first_semester\lecture-materials-Abd-Alfatah\Lecture2\g++" does not exist.can *only* hold integers.
 //   It cannot hold a string like "hello".
 //
 //   To fix this, simply delete or comment out the broken line.
@@ -40,20 +43,21 @@ int main() {
     std::cout << "x is: " << x << std::endl;
 
     // --- TASK 2: Fix this line ---
-    x = "hello"; // This is the "Python" way, but it's illegal in C++!
+    //x = "hello"; // This is the "Python" way, but it's illegal in C++!
     // ---
     
     std::cout << "Now x is: " << x << std::endl;
 
     // --- TASK 3: Add more variables here ---
-    // double pi = ...
-    // char initial = ...
-    // bool is_cpp_fun = ...
+    double pi = 3.14;
+    char initial = 'I';
+    bool is_cpp_fun =true;
     
     // --- TASK 4: Print your new variables here ---
-    // std::cout << "Pi is: " << pi << std::endl;
-    // ...
-    
+    std::cout << "Pi is: " << pi << std::endl;
+    std::cout << "initial is: " << initial << std::endl;
+    std::cout << "Cpp is : " << is_cpp_fun << std::endl;
+
     std::cout << "---------------------------------------" << std::endl;
     return 0;
 }

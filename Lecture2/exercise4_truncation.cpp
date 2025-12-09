@@ -61,10 +61,10 @@ int main() {
 
     // --- TASK 2: Use static_cast to round properly ---
     
-    // int rounded_grade = ...
+    int rounded_grade =static_cast<int>(precise_average + 0.5);  
     
     // --- TASK 3: Print your rounded grade ---
-    // std::cout << "The rounded grade is: " << rounded_grade << std::endl;
+    std::cout << "The rounded grade is: " << rounded_grade << std::endl;
     
 
     std::cout << "------------------------------------" << std::endl;

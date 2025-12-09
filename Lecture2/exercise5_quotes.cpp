@@ -32,12 +32,12 @@
 int main() {
     std::cout << "--- Exercise 5: 'char' vs 'string' ---" << std::endl;
 
-    // --- TASK 2: Fix these two lines! ---
+    // TASK 2: Fix these two lines! ---
     
-    char initial = "B"; // ERROR! 'char' uses single quotes for one character.
-    std::string name = 'Bob'; // ERROR! 'std::string' uses double quotes.
+    char initial = 'B'; // ERROR! 'char' uses single quotes for one character.
+    std::string name = "Bob"; // ERROR! 'std::string' uses double quotes.
     
-    // ---
+    
     
     std::cout << "Initial: " << initial << std::endl;
     std::cout << "Name: " << name << std::endl;
